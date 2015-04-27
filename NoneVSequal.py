@@ -29,3 +29,7 @@ else:
 #myclass is MyClass with == keyword
 #myclass is not None with is keyword
 #myclass is None with == keyword
+
+"""Поэтому нужно проверять на None с помощью ключевого слова is.
+А ещё (для некоторых классов) вызов метода __eq__ может занимать
+много времени, и is будет просто-напросто быстрее."""
